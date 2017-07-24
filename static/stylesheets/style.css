@@ -1,6 +1,6 @@
 
 body{
-	background-color: grey;
+	background-color:black;
 }
 
 
@@ -11,35 +11,37 @@ a {
 
 
 h1 {
-	width :1000px;
-	height:50;
+	margin-top:5px;
 	text-align: center;
-	 border:solid black 5px;
-   
-}
+   } 
 
 .nav_bar {
-	width :300px;
+	background-image:url("../images/image3.jpeg"); 
+	padding:0px;
+	width :285px;
 	height:50;
-	border:solid black 5px;
+	border:solid black 1px;
 
 }
 
 
 .inline{
-	display: inline-block;
-}
-
-
-
+	display:inline-block;
 }
 
 li:hover {
 	
-	background-color: darkred; 
+	background-color:gray; 
 }
 
 li {
-	padding: 20px
+	color: white;
+	padding:10px
 }
 
+.header-style{
+	background-image:url("../images/image3.jpeg"); 
+	width :1270px;
+	height:100;
+	border:solid black 1px;
+}
