@@ -3,41 +3,40 @@ body{
 	background-color: grey;
 }
 
-.background_img{
-	color: black;
-	font-size: 10px;
-	float: center;
-	background-image: url("https://pbs.twimg.com/profile_images/850760805574471680/kcyxNgph.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 200px;
-	height: 200px;
-	border:solid black 10px;
-	border-radius: 10%;
-	
-}
 
+a {
+	text-decoration:none;
+	color:black;
+}
 
 
 h1 {
+	width :1000px;
+	height:50;
 	text-align: center;
+	 border:solid black 5px;
+   
+}
+
+.nav_bar {
+	width :300px;
+	height:50;
+	border:solid black 5px;
+
 }
 
 
-
-
-.nav_bar{
+.inline{
 	display: inline-block;
-	width : 500px;
-	border:solid black 10px;
-
 }
 
 
+
+}
 
 li:hover {
 	
-	background-color: red; 
+	background-color: darkred; 
 }
 
 li {
