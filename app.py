@@ -1,5 +1,8 @@
 from flask import Flask, render_template , request
 import random 
+import dataset
+# db = dataset.connect('postgres://yowahpfaxtsjoc:89e78de430594fa7bffec234ce5bc8ac9193cef0a864378fd900ddd573d65651@ec2-23-23-244-83.compute-1.amazonaws.com:5432/dbn2rcviq5s3i4')
+# info_table = db["restaurant_rate"]
 
 
 
@@ -12,10 +15,6 @@ def homepage():
 @app.route("/aboutus")
 def aboutus():
 	return render_template("aboutus.html")
-
-@app.route("/contactus")
-def contactus():
-	return render_template("contactus.html")
 
 @app.route("/south")
 def southpage():
@@ -33,9 +32,9 @@ def eastpage():
 def westpage():
 	return render_template("west.html")
 
-@app.route("/contactus")
-def contact_us():
-	return render_template("contactus.html")
+@app.route("/recomendation")
+def recomendation():
+	return render_template("recomendation.html")
 
 
 @app.route("/viewtheuser", methods= ["POST"])
