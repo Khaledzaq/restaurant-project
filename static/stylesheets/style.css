@@ -50,5 +50,11 @@ li {
 	height:150;
 	border:solid black 1px;
 }
-form{color:white;
-margin:20px;}
+form{
+	color:white;
+    margin:20px;}
+
+h2{ font-size:30px;
+	color:gray;
+	margin:10px;
+    margin-top:10px; }
