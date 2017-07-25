@@ -39,18 +39,18 @@ def recomendation():
 
 @app.route("/viewtheuser", methods= ["POST"])
 def hello():
-	user_name = request.form["firstname"]
-	user_lastname = request.form["lastname"]
-	user_message = request.form["message"]
-	user_gender = request.form["gender"]
-	# info_table.insert(dict(firname="user_name" , lasname="user_lastname", message="user_message" , gender= "user_info"))
+	user_fullname = request.form["fullname"]
+	user_email = request.form["email"]
+	user_restaurantname = request.form["restaurantname"]
+	user_recomindation = request.form["recomindation"]
+#	info_table.insert(dict(fullname= user_fullname, useremail=user_email, restaurantname=user_restaurantname, userrecomindation=user_recomindation))
 	# return info_table.find_one(firname="khaled")
 	
 	return render_template("veiwtheuser.html" ,
-		username= user_name,
-		userlastname=user_lastname,
-		usermessage=user_message,
-		usergender=user_gender
+		fullname= user_fullname,
+		useremail=user_email,
+		restaurantname=user_restaurantname,
+		userrecomindation=user_recomindation
 		) 
 
 
