@@ -1,12 +1,19 @@
-s{%extends "layout.html"%}
+{%extends "layout.html"%}
+{%block head%}
+{%endblock%}
 {%block body%}
+
+<!-- <ul>
+	{% for user in users %}
+		<li>name of the restaurant : {{user.restaurantname}}, the message is : {{user.userrecomindation}}</li>
+	{% endfor %}
+</ul> -->
 
 <h1>your name is {{fullname}}</h1>
 <h2>your email is {{useremail}}</h2>
 <h3>the restaurant name is {{restaurantname}}</h3>
 <h4>your recomendation is {{userrecomindation}}</h4>
-
-
+ 
 
 
 {%endblock%}
