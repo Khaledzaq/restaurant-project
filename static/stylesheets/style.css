@@ -16,7 +16,7 @@ a {
 h1 {
 	font-size: 50px;
 	font-family: 'Open Sans Condensed', sans-serif;
-	margin-top:5px;
+	margin-top:1px;
 	text-align: center;
    } 
 
@@ -24,8 +24,9 @@ h1 {
 	background-image:url("../images/image3.jpeg"); 
 	padding:0px;
 	width :320px;
-	height:100px;
+	height:50px;
 	border:solid black 1px;
+	display:inline-block;
 
 }
 
@@ -50,5 +51,10 @@ li {
 	height:150;
 	border:solid black 1px;
 }
-form{color:white;
-margin:20px;}
+form{
+	color:white;
+    margin:20px;}
+
+.gazaimg{
+	float:right;
+    margin:15px;}
