@@ -4,16 +4,16 @@
 {%endblock%}
 
 {%block body%}
-<h1>recomendation</h1>
+<h1 class="white">Tell us what do you think !</h1>
 
 <form action="{{ url_for('hello')}}" method="post">
 	Full name:<br>
 	<input type="text"  name="fullname"><br>
-	email:<br>
+	Email:<br>
 	<input type="text"  name="email"><br>
-	resturant name:<br>
+	Resturant name:<br>
 	<input type="text" name="restaurantname"><br>
-	recomendation: <br>
+	Recomendation: <br>
 	<textarea class="message" type="text" cols="50" name="recomindation"></textarea> 
 
 	<input type="radio" name="gender" value="male">Male 

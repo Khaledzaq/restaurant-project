@@ -2,7 +2,10 @@
 body{
 	background-color:black;
 }
-
+.white{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:white;
+}
 
 a {
 	text-decoration:none;
@@ -20,8 +23,8 @@ h1 {
 .nav_bar {
 	background-image:url("../images/image3.jpeg"); 
 	padding:0px;
-	width :300px;
-	height:50;
+	width :320px;
+	height:100;
 	border:solid black 1px;
 
 }
@@ -47,3 +50,5 @@ li {
 	height:150;
 	border:solid black 1px;
 }
+form{color:white;
+margin:20px;}
