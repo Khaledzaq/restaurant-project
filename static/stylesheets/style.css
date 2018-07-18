@@ -3,19 +3,30 @@ body{
 	background-color:black;
 }
 .white{
-	font-family: 'Open Sans Condensed', sans-serif;
 	color:white;
+
 }
 
-a {
+a{
 	text-decoration:none;
 	color:black;
 }
 
 
+.yellow{
+	color:yellow;
+}
+
+
+.font{
+	font-family:'Marck Script';
+}
+
+
 h1 {
-	font-size: 50px;
-	font-family: 'Open Sans Condensed', sans-serif;
+	color: black;
+	font-size:50px;
+	font-family:'Marck Script';
 	margin-top:1px;
 	text-align: center;
    } 
@@ -23,8 +34,8 @@ h1 {
 .nav_bar {
 	background-image:url("../images/image3.jpeg"); 
 	padding:0px;
-	width :320px;
-	height:50px;
+	width :450px;
+	height:40px;
 	border:solid black 1px;
 	display:inline-block;
 
@@ -35,35 +46,77 @@ h1 {
 	display:inline-block;
 }
 
-li:hover {
-	
+
+li:hover{
 	background-color:gray; 
 }
 
 li {
-	color: white;
+	color:white;
 	padding:10px
 }
 
 .header-style{
 	background-image:url("../images/image3.jpeg"); 
-	width :1270px;
+	width :1340px;
 	height:150;
 	border:solid black 1px;
 }
+
 form{
 	color:white;
     margin:20px;}
 
 
 h2{ font-size:30px;
-	color:gray;
+	color:white;
 	margin:10px;
     margin-top:10px; }
 
 .gazaimg{
 	float:right;
-    margin:15px;}
+    margin:10px;}
 
 
-.diri{width:200px;}
+.diri{
+
+	width:200px;
+    margin-top:-10px;}
+
+
+h4{
+   margin:10px;
+   color:lightblue;
+   }
+
+h5{color:lightblue;
+  font-size:15px;
+  margin:15;
+  margin-top:0px;
+}
+
+.center{
+	background: #756e6e;
+	border: solid white;
+	padding: 20px;
+	float: center;
+	margin-left: 400px;
+	margin-right: 400px;
+	margin-top: 40px;
+}
+
+textarea{
+	resize: none;
+	width: 300px;
+	height: 150px;
+}
+
+
+
+.gazaima{
+    border-radius: 10%;
+	float:right;
+    margin:10px;
+    margin-top: 0px;
+}
+

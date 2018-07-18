@@ -3,17 +3,36 @@
 {%endblock%}
 {%block body%}
 
-<!-- <ul>
-	{% for user in users %}
-		<li>name of the restaurant : {{user.restaurantname}}, the message is : {{user.userrecomindation}}</li>
-	{% endfor %}
-</ul> -->
+<div class="center">
+<h2 class="white">Hello, my name is Jhon</h2>
+<h3 class="white">the restaurant name is : "light house"</h3>
+<p class="white">the reasturant was fantastic, i liked the veiw that shows the sea, the food was amazing, so deletious. i recommend it. my rate scale out of 10 is 9.5</p> <br>
+</div>
 
+<div class="center">
+<h2 class="white">Hi, my name is Sama</h2>
+<h3 class="white">the restaurant name is : "al dar "</h3>
+<p class="white">i liked it, it is kinda unformal, but the food is quite great, and my rate scale out of 10 is 8</p>
+</div>
+ 
+
+
+
+
+{% for user in users %}
+<div class="center">
+
+		<p class="white">name of person : {{user.fullname}}, <br>name of the restaurant : {{user.restaurantname}}, <br> the message is : {{user.userrecomindation}}</p>
+	
+
+
+</div>
+{% endfor %}
+<!-- 
 <h1>your name is {{fullname}}</h1>
 <h2>your email is {{useremail}}</h2>
 <h3>the restaurant name is {{restaurantname}}</h3>
-<h4>your recomendation is {{userrecomindation}}</h4>
- 
+<h4>your recomendation is {{userrecomindation}}</h4> -->
 
 
 {%endblock%}
